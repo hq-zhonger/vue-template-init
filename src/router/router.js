@@ -10,6 +10,15 @@ const routes = [
         },
 
         component : ()=> import("@/views/login/login.vue")
+    },
+    {
+        path: '/home',
+        name: 'home',
+        meta : {
+            title : '布局',
+        },
+
+        component : ()=> import("@/views/layout/layout.vue")
     }
 ]
 
