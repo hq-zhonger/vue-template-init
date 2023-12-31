@@ -5,6 +5,7 @@ import { resolve } from "path"
 import * as path from "path";
 
 export default defineConfig({
+  envDir : "./vite_env",
   plugins: [vue(),
     createSvgIconsPlugin({
       iconDirs : [path.resolve(process.cwd(),'src/icons/svg')],
